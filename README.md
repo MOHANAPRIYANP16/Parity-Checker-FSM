@@ -5,6 +5,7 @@ This project implements a **Serial Parity Checker** using a **Finite State Machi
 It checks whether the number of `1`s in the received serial data stream is **even** or **odd** and outputs a parity status accordingly.  
 The design supports both **even** and **odd** parity modes and validates the parity bit at the end of the sequence.
 
+![Fpga](images&videos/fpga.png)
 
 ---
 ## 📜 Problem Statement
