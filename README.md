@@ -116,39 +116,9 @@ module parity (
         end
     end
 endmodule
+  </pre>
 
 ## 📂 testbench.v
 
-```verilog
-module parity_checker_tb;
-    reg clk;
-    reg rst;
-    reg in_bit;
-    wire parity;
 
-    parity_checker uut (
-        .clk(clk),
-        .rst(rst),
-        .in_bit(in_bit),
-        .parity(parity)
-    );
-
-    initial begin
-        clk = 0;
-        forever #5 clk = ~clk;
-    end
-
-    initial begin
-        rst = 1; in_bit = 0;
-        #10 rst = 0;
-
-        #10 in_bit = 1;
-        #10 in_bit = 0;
-        #10 in_bit = 1;
-        #10 in_bit = 1;
-        #10 in_bit = 0;
-        #10 $stop;
-    end
-endmodule
-                </pre>
 
