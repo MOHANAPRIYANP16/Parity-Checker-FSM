@@ -54,9 +54,12 @@ This project uses an **FSM approach** instead of a simple combinational XOR logi
 
 ---
 
+
 ## 📂 design.v
-```verilog
-// Insert your design.v code here or link to the file
+
+
+## 📂 testbench.v
+
 
 
 
