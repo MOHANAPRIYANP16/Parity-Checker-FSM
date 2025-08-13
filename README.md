@@ -58,7 +58,7 @@ Design a serial **Parity Checker FSM** which:
 ---
 
 ## 📊 FSM State Diagram
-![FSM Diagram](images/fsm_diagram.png)
+![FSM](images&videos/parity_checker_state_diagram.png)
 
 ---
 
