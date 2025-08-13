@@ -5,8 +5,8 @@ This project implements a **Serial Parity Checker** using a **Finite State Machi
 It checks whether the number of `1`s in the received serial data stream is **even** or **odd** and outputs a parity status accordingly.  
 The design supports both **even** and **odd** parity modes and validates the parity bit at the end of the sequence.
 
----
 
+---
 ## 📜 Problem Statement
 Design a serial **Parity Checker FSM** which:
 - Checks if the number of 1's in the data stream is even or odd.
@@ -19,7 +19,7 @@ Design a serial **Parity Checker FSM** which:
 ---
 
 ## ✨ Features
-- FSM-based sequential parity detection.
+- FSM-based sequential parity detection. 
 - Supports both even and odd parity modes.
 - Works on serial input data streams.
 - Designed in Verilog HDL.
@@ -71,50 +71,81 @@ module parity (
     input mode,        
     output reg parity_ok,
     output reg [3:0] counter
+    
 );
-    reg curr_state;
-    reg next_state;
+     reg curr_state;
+     reg next_state;
 
-    parameter EVEN_STATE = 1'b0;
-    parameter ODD_STATE  = 1'b1;
+parameter EVEN_STATE = 1'b0;
+parameter ODD_STATE  = 1'b1;
 
-    always @(*) begin
-        next_state = curr_state;
+always @(*)
+ begin
+  next_state = curr_state;
+    if (valid)
+     begin
+      if(data_in)
+         begin 
+         case (curr_state)
+             EVEN_STATE : begin
+                 next_state = ODD_STATE;
+             end
+             ODD_STATE : begin
+                 next_state = EVEN_STATE;
+             end
+         endcase
+       
+         end
+         else 
+         begin
+          next_state =curr_state;
+         end
+     end
+ end
+
+always @(posedge clk or posedge reset) 
+begin
+    if (reset) begin
+        curr_state <= EVEN_STATE;
+          counter <= 4'd0;
+             parity_ok <= 1'b0;
+    end else 
+       begin
         if (valid) begin
-            if (data_in) begin 
-                case (curr_state)
-                    EVEN_STATE: next_state = ODD_STATE;
-                    ODD_STATE:  next_state = EVEN_STATE;
-                endcase
-            end else begin
-                next_state = curr_state;
-            end
-        end
-    end
+          
+            curr_state <= next_state;
 
-    always @(posedge clk or posedge reset) begin
-        if (reset) begin
-            curr_state <= EVEN_STATE;
-            counter <= 4'd0;
-            parity_ok <= 1'b0;
-        end else begin
-            if (valid) begin
-                curr_state <= next_state;
-                if (counter < 4'd8)
-                    counter <= counter + 1;
-                if (counter == 4'd8) begin 
-                    counter <= 4'd0;
-                    case(curr_state)
-                        EVEN_STATE: parity_ok <= (mode == 1'b0) ? 1'b1 : 1'b0;
-                        ODD_STATE:  parity_ok <= (mode == 1'b1) ? 1'b1 : 1'b0;
-                    endcase
-                end
-            end else begin
+          if (counter < 4'd8)
+                counter <=counter + 1;
+
+          if (counter == 4'd8)
+             begin 
+             
+             curr_state <= EVEN_STATE;
+               case(curr_state)
+                 EVEN_STATE: 
+                  begin
+                     parity_ok <= (mode == 1'b0) ? 1'b1 : 1'b0; 
+                  end
+                 ODD_STATE: 
+                   begin
+                     parity_ok <= (mode == 1'b1) ? 1'b1 : 1'b0; 
+                   end
+               endcase
+               
+             end
+             
+            
+        end
+        else
+             begin
                 parity_ok <= 1'b0;
                 counter <= 4'd0;
-            end
-        end
-    end
+                curr_state <= EVEN_STATE;
+             end
+       end
+end
+
 endmodule
   </pre>
 
