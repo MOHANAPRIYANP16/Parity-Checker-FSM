@@ -20,22 +20,50 @@ Design a serial **Parity Checker FSM** which:
 ---
 
 ## ✨ Features
-- FSM-based sequential parity detection. 
-- Supports both even and odd parity modes.
-- Works on serial input data streams.
-- Designed in Verilog HDL.
-- Includes simulation testbench.
-- FPGA synthesis-ready.
+
+- **FSM Stages**:
+
+  - `EVEN_STATE → ODD_STATE → EVEN_STATE` (keeps toggling as bits are received).
+
+  - FSM behaves as a Mealy machine, meaning output depends on both state and input.
+
+- **Functionality**:
+
+  - Accepts serial input bits (data_in) one at a time.
+
+  - Maintains a counter to track number of received bits.
+
+  - Supports both even and odd parity modes (configurable via mode).
+
+- **At the end of 8-bit sequence:**
+
+  - parity_ok = 1 → if received parity matches expected
+
+  - parity_ok = 0 → if mismatch detected
+
+- **Inputs:**
+
+  - clk – Clock input
+
+  - reset – Resets FSM to initial state
+
+  - data_in – Serial input bit
+
+  - valid – Enables data sampling
+
+  - mode – 0 = Even parity, 1 = Odd parity
+
+- **Outputs:**
+
+  - parity_ok – High if parity matches expectation
+
+  - counter – Tracks number of received bits
 
 ---
 
 ## 🛠 Tools & Hardware
-- **HDL Language:** Verilog
-- **Simulation Tool:** ModelSim / Vivado Simulator
-- **Synthesis Tool:** Xilinx Vivado
-- **FPGA Board:** Zynq-7000 (or equivalent)
-- **Environment:** Linux/Windows
-
+- Software: Vivado ML Edition (Standard) 2024.2
+- Hardware: ZedBoard Zynq-7000 ARM / FPGA SoC Development Board
 ---
 
 ## 🔌 Inputs & Outputs
@@ -210,3 +238,8 @@ module tb();
 
 endmodule</pre>
 
+---
+
+## 🧪 Simulation
+
+ ![📸 wave form](images&videos/fpga.png)
