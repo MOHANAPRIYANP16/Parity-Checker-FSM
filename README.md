@@ -242,4 +242,9 @@ endmodule</pre>
 
 ## 🧪 Simulation
 
- ![📸 wave form](images&videos/fpga.png)
+ ![📸 wave form](images&videos/wave_form.jpeg)
+
+ ---
+
+## ⚙️ Schematic View 
+ ![schematic](images&videos/schematic_view.jpeg)
