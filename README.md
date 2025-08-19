@@ -272,6 +272,8 @@ endmodule</pre>
 ![Technology view](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/4928729b66b930de7d9b339ee86da40d9b731c0c/images%26videos/technology_view.jpeg)
 ## ⚙️Resource utilisation
 ![Resource utilisation](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/4928729b66b930de7d9b339ee86da40d9b731c0c/images%26videos/resource_utilization.jpeg)
+## ⚙️Timing analysis
+![Timing analysis](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/7f9f252341ed3cc5c36f309f0076a1e2ad11b2dd/images%26videos/Timing%20analysis.jpg)
 ## ⚙️power summary
 ![power summary](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/4928729b66b930de7d9b339ee86da40d9b731c0c/images%26videos/power_summary.jpeg)
 
