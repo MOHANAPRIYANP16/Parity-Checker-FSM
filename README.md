@@ -280,18 +280,19 @@ endmodule</pre>
 
 ## FPGA I/O Port Assignments
 
-| Name       | Direction | Board Part Pin | Bank | I/O Std   | Vcco | Vref | Drive Strength | Slew Type | Pull Type | Off-Chip Termination | IN_TERM |
-|------------|-----------|----------------|------|-----------|------|------|----------------|-----------|-----------|----------------------|---------|
-| counter[3] | OUT       | U14            | 33   | LVCMOS18  | 1.800|      | 12             |           | NONE      | FP_VTT_50            |         |
-| counter[2] | OUT       | U19            | 33   | LVCMOS18  | 1.800|      | 12             |           | NONE      | FP_VTT_50            |         |
-| counter[1] | OUT       | W22            | 33   | LVCMOS18  | 1.800|      | 12             |           | NONE      | FP_VTT_50            |         |
-| counter[0] | OUT       | V22            | 33   | LVCMOS18  | 1.800|      | 12             |           | NONE      | FP_VTT_50            |         |
-| clk_in     | IN        | Y9             | 13   | LVCMOS18  | 1.800|      |                |           | NONE      | NONE                 |         |
-| data_in    | IN        | M15            | 33   | LVCMOS18  | 1.800|      |                |           | NONE      | NONE                 |         |
-| mode       | IN        | H18            | 33   | LVCMOS18  | 1.800|      |                |           | NONE      | NONE                 |         |
-| parity_ok  | OUT       | T22            | 33   | LVCMOS18  | 1.800|      | 12             |           | NONE      | FP_VTT_50            |         |
-| reset      | IN        | H17            | 35   | LVCMOS18  | 1.800|      |                |           | NONE      | NONE                 |         |
-| valid      | IN        | H19            | 35   | LVCMOS18  | 1.800|      |                |           | NONE      | NONE                 |         |
+| Name       | Direction | Board Part Pin | Bank | I/O Std   | Vcco | Drive Strength | Pull Type | Off-Chip Termination |
+|------------|-----------|----------------|------|-----------|------|----------------|-----------|----------------------|
+| counter[3] | OUT       | U14            | 33   | LVCMOS18  | 1.800| 12             | NONE      | FP_VTT_50            |
+| counter[2] | OUT       | U19            | 33   | LVCMOS18  | 1.800| 12             | NONE      | FP_VTT_50            |
+| counter[1] | OUT       | W22            | 33   | LVCMOS18  | 1.800| 12             | NONE      | FP_VTT_50            |
+| counter[0] | OUT       | V22            | 33   | LVCMOS18  | 1.800| 12             | NONE      | FP_VTT_50            |
+| clk_in     | IN        | Y9             | 13   | LVCMOS18  | 1.800|                | NONE      | NONE                 |
+| data_in    | IN        | M15            | 33   | LVCMOS18  | 1.800|                | NONE      | NONE                 |
+| mode       | IN        | H18            | 33   | LVCMOS18  | 1.800|                | NONE      | NONE                 |
+| parity_ok  | OUT       | T22            | 33   | LVCMOS18  | 1.800| 12             | NONE      | FP_VTT_50            |
+| reset      | IN        | H17            | 35   | LVCMOS18  | 1.800|                | NONE      | NONE                 |
+| valid      | IN        | H19            | 35   | LVCMOS18  | 1.800|                | NONE      | NONE                 |
+
 
 ## ⚙️ File structure
 ![file structure](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/9e7130d4603fe3557c989bc599551415d034e6c0/images%26videos/file_struture.jpeg)
