@@ -280,7 +280,7 @@ endmodule</pre>
 ![Resource utilisation](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/4928729b66b930de7d9b339ee86da40d9b731c0c/images%26videos/resource_utilization.jpeg)
 ## ⚙️Technology view
 ![Technology view](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/4928729b66b930de7d9b339ee86da40d9b731c0c/images%26videos/technology_view.jpeg)
-##💫 Implementation
+## 💫 Implementation
 
 ## EVEN PARITY CHECKER
 [Even parity checker](https://drive.google.com/file/d/1byc-OG9huiHZshWdDYhuD5FeIiio-nlG/view?usp=sharing)
