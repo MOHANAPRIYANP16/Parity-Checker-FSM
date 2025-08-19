@@ -84,6 +84,25 @@ Design a serial **Parity Checker FSM** which:
 2. **ODD_STATE** – Current number of 1's is odd.
 
 ---
+🔄 FSM Transition Description
+
+The FSM always starts in the EVEN state.
+
+If the input bit is 0, the FSM remains in the current state (no change).
+
+If the input bit is 1, the FSM toggles its state:
+
+From EVEN → ODD
+
+From ODD → EVEN
+
+This process repeats for every input bit in the sequence.
+
+✅ In short:
+
+0 = Stay in the same state
+
+1 = Switch between EVEN ↔ ODD
 
 ## 📊 FSM State Diagram
 ![FSM](images&videos/parity_checker_state_diagram.png)
