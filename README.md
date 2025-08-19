@@ -106,6 +106,7 @@ This process repeats for every input bit in the sequence.
 
 ## 📊 FSM State Diagram
 ![FSM](images&videos/parity_checker_state_diagram.png)
+![image](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/e2687f66692e00169b1eeef728d07716f05b0b8c/images%26videos/power_summary.jpeg)
 
 ---
 
