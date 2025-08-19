@@ -290,7 +290,7 @@ endmodule</pre>
 
 ## 👥 Contributors
 
-## Mohanapriyan P, Bannari Amman Institute Of Technology
+ Mohanapriyan P, Bannari Amman Institute Of Technology
 
-## Naveenraj S, Bannari Amman Institute Of Technology  [linkedin](https://www.linkedin.com/in/naveenraj07/)
+ Naveenraj S, Bannari Amman Institute Of Technology ( [linkedin](https://www.linkedin.com/in/naveenraj07/) )
  
