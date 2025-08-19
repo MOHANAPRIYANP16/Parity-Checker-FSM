@@ -278,6 +278,8 @@ endmodule</pre>
 ![power summary](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/4928729b66b930de7d9b339ee86da40d9b731c0c/images%26videos/power_summary.jpeg)
 ## ⚙️Resource utilisation
 ![Resource utilisation](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/4928729b66b930de7d9b339ee86da40d9b731c0c/images%26videos/resource_utilization.jpeg)
+## ⚙️Package
+![package](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/25b35220a95744ddfb1b43aa571618f804440ea5/images%26videos/package.jpeg)
 ## ⚙️Technology view
 ![Technology view](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/4928729b66b930de7d9b339ee86da40d9b731c0c/images%26videos/technology_view.jpeg)
 ## 💫 Implementation
