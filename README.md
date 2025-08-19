@@ -287,4 +287,10 @@ endmodule</pre>
 
 ## ODD PARITY CHECKER
 [Odd parity checker](https://drive.google.com/file/d/1WCapBTg2HTXZbWh_TGhe25JObeFLe8m5/view?usp=drive_link)
+
+## 👥 Contributors
+
+## Mohanapriyan P, Bannari Amman Institute Of Technology
+
+## Naveenraj S, Bannari Amman Institute Of Technology  [linkedin](https://www.linkedin.com/in/naveenraj07/)
  
