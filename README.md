@@ -106,7 +106,7 @@ This process repeats for every input bit in the sequence.
 
 ## 📊 FSM State Diagram
 ![FSM](images&videos/parity_checker_state_diagram.png)
-![image](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/e2687f66692e00169b1eeef728d07716f05b0b8c/images%26videos/power_summary.jpeg)
+
 
 ---
 
@@ -268,3 +268,10 @@ endmodule</pre>
 
 ## ⚙️ Schematic View 
  ![schematic](images&videos/schematic_view.jpeg)
+## ⚙️ Pin assignment
+![pin assignment](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/9e7130d4603fe3557c989bc599551415d034e6c0/images%26videos/pin_assignment.jpeg)
+## ⚙️ File structure
+![file structure](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/9e7130d4603fe3557c989bc599551415d034e6c0/images%26videos/file_struture.jpeg)
+## ⚙️pin_mapping in FPGA
+![pin mapping](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/9e7130d4603fe3557c989bc599551415d034e6c0/images%26videos/pin_mapping.jpeg)
+ 
