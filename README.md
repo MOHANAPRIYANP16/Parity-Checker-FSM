@@ -281,8 +281,8 @@ endmodule</pre>
 ## ⚙️Technology view
 ![Technology view](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/4928729b66b930de7d9b339ee86da40d9b731c0c/images%26videos/technology_view.jpeg)
 💫 Implementation
-EVEN PARITY CHECKER
+## EVEN PARITY CHECKER
 [Even parity checker](https://drive.google.com/file/d/1byc-OG9huiHZshWdDYhuD5FeIiio-nlG/view?usp=sharing)
-ODD PARITY CHECKER
+## ODD PARITY CHECKER
 [Odd parity checker](https://drive.google.com/file/d/1WCapBTg2HTXZbWh_TGhe25JObeFLe8m5/view?usp=drive_link)
  
