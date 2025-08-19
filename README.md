@@ -274,4 +274,10 @@ endmodule</pre>
 ![file structure](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/9e7130d4603fe3557c989bc599551415d034e6c0/images%26videos/file_struture.jpeg)
 ## ⚙️pin_mapping in FPGA
 ![pin mapping](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/9e7130d4603fe3557c989bc599551415d034e6c0/images%26videos/pin_mapping.jpeg)
+## ⚙️power summary
+![power summary](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/4928729b66b930de7d9b339ee86da40d9b731c0c/images%26videos/power_summary.jpeg)
+## ⚙️Resource utilisation
+![Resource utilisation](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/4928729b66b930de7d9b339ee86da40d9b731c0c/images%26videos/resource_utilization.jpeg)
+## ⚙️Technology view
+![Technology view](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/4928729b66b930de7d9b339ee86da40d9b731c0c/images%26videos/technology_view.jpeg)
  
