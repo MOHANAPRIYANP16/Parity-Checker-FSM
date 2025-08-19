@@ -295,4 +295,7 @@ endmodule</pre>
  Mohanapriyan P, Bannari Amman Institute Of Technology ( [linkedin](https://www.linkedin.com/in/mohanapriyan-p-b94962325/) )
 
  Naveenraj S, Bannari Amman Institute Of Technology ( [linkedin](https://www.linkedin.com/in/naveenraj07/) )
+
+ ## Notes
+ This project marks our first experience in VLSI design, where we implemented a Parity Checker using FSM. We faced several challenges in coding, debugging, and understanding state transitions. These challenges strengthened our knowledge of FSM types and their practical implementation. The project enhanced both our technical skills and problem-solving abilities. We sincerely thank our staff [Mr. Elango Sekar](https://www.linkedin.com/in/elango-sekar-8973b958/) for his constant support and encouragement.
  
