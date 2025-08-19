@@ -268,20 +268,23 @@ endmodule</pre>
 
 ## ⚙️ Schematic View 
  ![schematic](images&videos/schematic_view.jpeg)
+ ## ⚙️Technology view
+![Technology view](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/4928729b66b930de7d9b339ee86da40d9b731c0c/images%26videos/technology_view.jpeg)
+## ⚙️Resource utilisation
+![Resource utilisation](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/4928729b66b930de7d9b339ee86da40d9b731c0c/images%26videos/resource_utilization.jpeg)
+## ⚙️power summary
+![power summary](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/4928729b66b930de7d9b339ee86da40d9b731c0c/images%26videos/power_summary.jpeg)
+
 ## ⚙️ Pin assignment
 ![pin assignment](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/9e7130d4603fe3557c989bc599551415d034e6c0/images%26videos/pin_assignment.jpeg)
 ## ⚙️ File structure
 ![file structure](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/9e7130d4603fe3557c989bc599551415d034e6c0/images%26videos/file_struture.jpeg)
 ## ⚙️pin_mapping in FPGA
 ![pin mapping](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/9e7130d4603fe3557c989bc599551415d034e6c0/images%26videos/pin_mapping.jpeg)
-## ⚙️power summary
-![power summary](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/4928729b66b930de7d9b339ee86da40d9b731c0c/images%26videos/power_summary.jpeg)
-## ⚙️Resource utilisation
-![Resource utilisation](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/4928729b66b930de7d9b339ee86da40d9b731c0c/images%26videos/resource_utilization.jpeg)
+
 ## ⚙️Package
 ![package](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/25b35220a95744ddfb1b43aa571618f804440ea5/images%26videos/package.jpeg)
-## ⚙️Technology view
-![Technology view](https://github.com/MOHANAPRIYANP16/Parity-Checker-FSM/blob/4928729b66b930de7d9b339ee86da40d9b731c0c/images%26videos/technology_view.jpeg)
+
 ## 💫 Implementation
 The input is provided one bit per clock pulse. Since the sequence length is 8 bits, a total of 8 clock pulses are required to process the input. On the 9th clock pulse, the FSM generates the output:
 
