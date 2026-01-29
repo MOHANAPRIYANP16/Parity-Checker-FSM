@@ -111,7 +111,7 @@ This process repeats for every input bit in the sequence.
 ---
 
 ## 📂 design.v
-<pre>
+``` verilog
 module parity (
     input clk,
     input reset,
@@ -196,10 +196,11 @@ begin
 end
 
 endmodule
-  </pre>
+  ```
 
 ## 📂 testbench.v
-<pre>`timescale 1ns/1ps
+```verilog
+`timescale 1ns/1ps
 
 module tb();
 
@@ -256,7 +257,8 @@ module tb();
                 $monitor("time =%0t ,clk%b ,reset = %b,mode = %b,valid = %b, data_in =%b,counter = %d,parity_ok =%b", $time, clk, reset,mode,valid, data_in, counter, parity_ok);
     end
 
-endmodule</pre>
+endmodule
+```
 
 ---
 
